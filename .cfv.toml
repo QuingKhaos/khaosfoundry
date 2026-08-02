@@ -1,0 +1,4 @@
+exclude-dirs = [".git", ".lua", ".luarocks"]
+
+[type-map]
+"locale/**/*.cfg" = "ini"
