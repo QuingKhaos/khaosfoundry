@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-khaosfoundry-space-age",
-  "title": "// DEV // Foundry Revamped // Space Age //",
+  "name": "khaosdev-khaosfoundry-more",
+  "title": "// DEV // Foundry Revamped // More //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -11,7 +11,7 @@
     "elevated-rails",
     "quality",
     "recycler",
-    "space-age",
+    "! space-age",
 
     "khaosdev",
     "ghost-logistics",
@@ -20,8 +20,6 @@
     "barrel-stages",
     "barreling-group2",
     "khaosammogroup",
-    "khaosbioprocessinggroup",
-    "? khaoscastinggroup",
     "khaoscircuitrygroup",
     "khaosmodulesgroup",
     "khaostransportgroup",
