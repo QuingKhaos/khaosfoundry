@@ -1,11 +1,10 @@
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
-khaoslib_technology:load {
+local tech = khaoslib_technology:load {
   type = "technology",
   name = "electric-foundry",
   localised_name = {"entity-name.electric-foundry"},
-} :set_icons {{icon = "__khaosfoundry__/graphics/technology/foundry-sa.png", icon_size = 256}}
-  :set_prerequisites {"automation-3"}
+} :set_prerequisites {"automation-3"}
   :set_unit {
     time = 45,
     count = 200,
@@ -17,4 +16,11 @@ khaoslib_technology:load {
     },
   }
   :add_unlock_recipe("electric-foundry")
-  :commit()
+
+if feature_flags["expansion"] then
+  tech:set_icons {{icon = "__khaosfoundry__/graphics/technology/foundry-sa.png", icon_size = 256}}
+else
+  tech:set_icons {{icon = "__khaosfoundry__/graphics/technology/electric-foundry.png", icon_size = 256}}
+end
+
+tech:commit()

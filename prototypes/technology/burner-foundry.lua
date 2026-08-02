@@ -4,8 +4,7 @@ local tech = khaoslib_technology:load {
   type = "technology",
   name = "burner-foundry",
   localised_name = {"entity-name.burner-foundry"},
-} :set_icons {{icon = "__khaosfoundry__/graphics/technology/foundry-sa.png", icon_size = 256, tint = {0.5, 0.5, 0.5}}}
-  :set_prerequisites {"automation"}
+} :set_prerequisites {"automation"}
   :set_unit {
     time = 10,
     count = 25,
@@ -14,6 +13,12 @@ local tech = khaoslib_technology:load {
     },
   }
   :add_unlock_recipe("burner-foundry")
+
+if feature_flags["expansion"] then
+  tech:set_icons {{icon = "__khaosfoundry__/graphics/technology/foundry-sa.png", icon_size = 256, tint = {0.5, 0.5, 0.5}}}
+else
+  tech:set_icons {{icon = "__khaosfoundry__/graphics/technology/burner-foundry.png", icon_size = 256}}
+end
 
 if settings.startup["khaosfoundry-hydrocarbon"].value == "coke" then
   tech:add_unlock_recipe("coke")

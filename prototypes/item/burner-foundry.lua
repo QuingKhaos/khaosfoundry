@@ -1,7 +1,7 @@
 local item_sounds = require("__base__.prototypes.item_sounds")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 
-khaoslib_item:load {
+local item = khaoslib_item:load {
   type = "item",
   name = "burner-foundry",
   localised_name = {"entity-name.burner-foundry"},
@@ -14,5 +14,12 @@ khaoslib_item:load {
   inventory_move_sound = item_sounds.steam_inventory_move,
   pick_sound = item_sounds.steam_inventory_pickup,
   drop_sound = item_sounds.steam_inventory_move,
-} :set_icons {{icon = "__khaosfoundry__/graphics/icons/foundry-sa.png", icon_size = 64, tint = {0.5, 0.5, 0.5}}}
-  :commit()
+}
+
+if feature_flags["expansion"] then
+  item:set_icons {{icon = "__khaosfoundry__/graphics/icons/foundry-sa.png", icon_size = 64, tint = {0.5, 0.5, 0.5}}}
+else
+  item:set_icons {{icon = "__khaosfoundry__/graphics/icons/burner-foundry.png", icon_size = 64}}
+end
+
+item:commit()

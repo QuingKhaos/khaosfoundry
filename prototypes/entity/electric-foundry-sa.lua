@@ -21,7 +21,6 @@ local entity = khaoslib_entity:load {
   selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
   damaged_trigger_effect = hit_effects.entity(),
   drawing_box_vertical_extension = 1.3,
-  effect_receiver = {base_effect = {productivity = 0.5}},
   module_slots = 3,
   icon_draw_specification = {scale = 2, shift = {0, -0.3}},
   icons_positioning = {

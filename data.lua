@@ -1,7 +1,12 @@
 require("__khaosfoundry__.prototypes.categories.recipe-category")
 
-require("__khaosfoundry__.prototypes.entity.burner-foundry-sa")
-require("__khaosfoundry__.prototypes.entity.electric-foundry-sa")
+if feature_flags["expansion"] then
+  require("__khaosfoundry__.prototypes.entity.burner-foundry-sa")
+  require("__khaosfoundry__.prototypes.entity.electric-foundry-sa")
+else
+  require("__khaosfoundry__.prototypes.entity.burner-foundry")
+  require("__khaosfoundry__.prototypes.entity.electric-foundry")
+end
 
 require("__khaosfoundry__.prototypes.item.burner-foundry")
 require("__khaosfoundry__.prototypes.item.electric-foundry")
