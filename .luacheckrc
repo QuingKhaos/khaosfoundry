@@ -50,14 +50,20 @@ files["prototypes/**/*.lua"] = {
     "meter",
     "kilometer",
     -- __core__.lualib.circuit-connector-sprites
+    "universal_connector_template",
     "circuit_connector_definitions",
     "default_circuit_wire_max_distance",
+    "assembling_machine_circuit_wire_max_distance",
     -- __base__.prototypes.factoriopedia-util
     "make_resource",
+    -- more factorio stuff
+    "sound_variations",
+    "pipecoverspictures",
   },
 }
 
 files["data*.lua"] = files["prototypes/**/*.lua"]
+files["graphics/**/*.lua"] = files["prototypes/**/*.lua"]
 files[".dev/**/data*.lua"] = files["prototypes/**/*.lua"]
 
 -- Runtime stage

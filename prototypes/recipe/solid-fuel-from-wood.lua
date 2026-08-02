@@ -1,4 +1,3 @@
-local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 
 if settings.startup["khaosfoundry-hydrocarbon"].value == "solid-fuel" and settings.startup["khaosfoundry-hydrocarbon-from-wood"].value then

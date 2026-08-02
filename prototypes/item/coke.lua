@@ -1,4 +1,3 @@
-local item_sounds = require("__base__.prototypes.item_sounds")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 
 if settings.startup["khaosfoundry-hydrocarbon"].value == "coke" then
