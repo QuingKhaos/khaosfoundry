@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-###NAME###-space-age",
-  "title": "// DEV // ###TITLE### // Space Age //",
+  "name": "khaosdev-khaosfoundry-space-age",
+  "title": "// DEV // Foundry Revamped // Space Age //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -27,7 +27,7 @@
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
+    "khaosfoundry"
   ],
   "expansion_required": true
 }
