@@ -5,7 +5,7 @@ if mods["khaossilicon"] then
     :set {categories = {"founding"}}
 
   if settings.startup["khaosfoundry-hydrocarbon"].value ~= "none" then
-    silicon:add_ingredient {type = "item", name = settings.startup["khaosfoundry-hydrocarbon"].value, amount = 1}
+    silicon:add_ingredient {type = "item", name = settings.startup["khaosfoundry-hydrocarbon"].value --[[@as string]], amount = 1}
   end
 
   silicon:commit()
