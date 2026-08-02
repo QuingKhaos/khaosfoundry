@@ -1,6 +1,6 @@
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
-khaoslib_technology:load {
+local tech = khaoslib_technology:load {
   type = "technology",
   name = "burner-foundry",
   localised_name = {"entity-name.burner-foundry"},
@@ -14,4 +14,17 @@ khaoslib_technology:load {
     },
   }
   :add_unlock_recipe("burner-foundry")
-  :commit()
+
+if settings.startup["khaosfoundry-hydrocarbon"].value == "coke" then
+  tech:add_unlock_recipe("coke")
+  if settings.startup["khaosfoundry-hydrocarbon-from-wood"].value then
+    tech:add_unlock_recipe("coke-from-wood")
+  end
+elseif settings.startup["khaosfoundry-hydrocarbon"].value == "solid-fuel" then
+  tech:add_unlock_recipe("solid-fuel-from-coal")
+  if settings.startup["khaosfoundry-hydrocarbon-from-wood"].value then
+    tech:add_unlock_recipe("solid-fuel-from-wood")
+  end
+end
+
+tech:commit()
