@@ -16,3 +16,5 @@ require("__khaosfoundry__.prototypes.recipe.solid-fuel-from-wood")
 
 require("__khaosfoundry__.prototypes.technology.burner-foundry")
 require("__khaosfoundry__.prototypes.technology.electric-foundry")
+
+require("__khaosfoundry__.prototypes.compat.base")
