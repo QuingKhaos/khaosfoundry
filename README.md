@@ -2,15 +2,11 @@
 
 # Foundry Revamped
 
-Provides a foundry building, as well as an electric version. The building is used for founding (e.g. casting metal), as well as other "hot" things like coking coke/solid fuel (optional). Can (optionally, default off) perform vanilla smelting tasks as well.
+Provides a burner foundry building, as well as an electric version. The building is used for founding (e.g. casting metal), as well as other "hot" things like coking coke/solid fuel (optional).
 
-By default, the foundry building is used to smelt steel and to make coke (used in steel and as fuel). If you have the relevant mods enabled, silicon, tungsten carbide, aluminum alloys, crucibles, cermet, and other recipes use the foundry. Most of this is fully configurable.
+By default, the foundry building is used to smelt steel and to make coke (used in steel and as fuel). If you have the relevant mods enabled, silicon, tungsten carbide, aluminum alloys, crucibles, cermet, and other recipes use the foundry.
 
-Other vanilla smelting recipes are, by default, not done in foundries, but that can be configured as well.
-
-There are also optional recipes (default off) that enable advantageous smelting ratios when using a supplemental refractory.
-
-If you own the Space Age DLC, the foundry uses the Space Age graphics.
+If you own the Space Age DLC, the foundry uses the Space Age assets.
 
 ## Remarks
 
