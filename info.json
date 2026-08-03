@@ -4,7 +4,7 @@
   "description": "Adds a foundry building for making alloys, etc.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.11",

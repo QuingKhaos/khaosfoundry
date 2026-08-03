@@ -5,7 +5,7 @@ mod_info:
     Adds a foundry building for making alloys, etc.
   description_file: README.md
   attach_source_link: true
-  license: custom_6a6ee28bcd48b57bc70caf08
+  license: default_gnugplv3
   category: content
   tags:
     - manufacturing

@@ -16,4 +16,4 @@ If you want to see your favorite mod supported, please open a discussion thread 
 
 ## Credits
 
-Revamp of the original [Foundry](https://mods.factorio.com/mod/bzfoundry) mod by [brevven](https://mods.factorio.com/user/brevven), and incorparated changes from [cackling.fiend](https://mods.factorio.com/user/cackling.fiend)'s [fork](https://mods.factorio.com/mod/bzfoundry2) of the original mod. For full list of all the changes, take a look at the changelog.
+Revamp of the original [Foundry](https://mods.factorio.com/mod/bzfoundry) mod by [brevven](https://mods.factorio.com/user/brevven), and incorparated changes from [cackling.fiend](https://mods.factorio.com/user/cackling.fiend)'s [fork](https://mods.factorio.com/mod/bzfoundry2) of the original mod.
